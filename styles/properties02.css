@@ -1,0 +1,63 @@
+.movie {
+    width: 600px;
+    height: max-content;
+    background-color: #FFEFD7;
+    border: 1px solid #B77100;
+    border-radius: 20px;
+    padding: 40px 20px 40px 20px;
+}
+.movie > .poster {margin-bottom: 20px;}
+.movie > .poster > img {}
+.movie > .title {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #B77100;
+    padding-bottom: 10px;
+}
+.movie > .title > .contents_g {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 6px;
+}
+.movie > .title > .age {}
+.movie > .title > .age > img {}
+.movie > .title > .contents_g > h1 {
+    font-family: 'Noto Sans KR', '맑은 고딕';
+    font-weight: 700;
+    font-size: 1.875em;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    margin-right: 6px;
+}
+.movie > .title > .contents_g >.suv_title {
+    font-family: 'Noto Sans KR', '맑은 고딕';
+    font-weight: 200;
+    font-size: 1.25em;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+.movie > .title > .date {
+    font-family: 'Noto Sans KR', '맑은 고딕';
+    font-size: 0.938em;
+}
+.movie > .description {}
+.movie > .description > .story {
+    font-family: 'Noto Sans KR', '맑은 고딕';
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+.movie > .description > .story2 {
+    font-family: 'Noto Sans KR', '맑은 고딕';
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+}
+.movie > .description > .story3 {
+    font-family: 'Noto Sans KR', '맑은 고딕';
+    font-weight: 600;
+    font-size: 1.125em;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
